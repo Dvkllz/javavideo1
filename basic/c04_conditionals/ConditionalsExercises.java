@@ -1,15 +1,9 @@
 package basic.c04_conditionals;
 
-/*
-Clase 38 - Ejercicios: Condicionales
-Vídeo: https://youtu.be/JOAqpdM36wI?t=11021
-*/
-
 public class ConditionalsExercises {
 
     public static void main(String[] args) {
 
-        // 1. Establece la edad de un usuario y muestra si puede votar (mayor o igual a 18).
         int age = 20;
         if (age >= 18) {
             System.out.println("Puede votar.");
@@ -17,7 +11,6 @@ public class ConditionalsExercises {
             System.out.println("No puede votar.");
         }
 
-        // 2. Declara dos números y muestra cuál es mayor, o si son iguales.
         int firstNumber = 15;
         int secondNumber = 9;
         if (firstNumber > secondNumber) {
@@ -28,7 +21,6 @@ public class ConditionalsExercises {
             System.out.println("Los dos números son iguales.");
         }
 
-        // 3. Dado un número, verifica si es positivo, negativo o cero.
         int number = -4;
         if (number > 0) {
             System.out.println("El número es positivo.");
@@ -38,7 +30,6 @@ public class ConditionalsExercises {
             System.out.println("El número es cero.");
         }
 
-        // 4. Crea un programa que diga si un número es par o impar.
         int parityNumber = 17;
         if (parityNumber % 2 == 0) {
             System.out.println(parityNumber + " es par.");
@@ -46,7 +37,6 @@ public class ConditionalsExercises {
             System.out.println(parityNumber + " es impar.");
         }
 
-        // 5. Verifica si un número está en el rango de 1 a 100.
         int rangeNumber = 75;
         if (rangeNumber >= 1 && rangeNumber <= 100) {
             System.out.println(rangeNumber + " está en el rango de 1 a 100.");
@@ -54,7 +44,6 @@ public class ConditionalsExercises {
             System.out.println(rangeNumber + " está fuera del rango de 1 a 100.");
         }
 
-        // 6. Declara una variable con el día de la semana (1-7) y muestra su nombre con switch.
         int day = 3;
         switch (day) {
             case 1:
@@ -82,8 +71,6 @@ public class ConditionalsExercises {
                 System.out.println("El día debe estar entre 1 y 7.");
         }
 
-        // 7. Simula un sistema de notas: muestra "Sobresaliente", "Aprobado" o
-        // "Suspenso" según la nota (0-100).
         int grade = 88;
         if (grade < 0 || grade > 100) {
             System.out.println("La nota debe estar entre 0 y 100.");
@@ -95,8 +82,6 @@ public class ConditionalsExercises {
             System.out.println("Suspenso");
         }
 
-        // 8. Escribe un programa que determine si puedes entrar al cine: debes
-        // tener al menos 15 años o ir acompañado.
         int cinemaAge = 13;
         boolean isAccompanied = true;
         if (cinemaAge >= 15 || isAccompanied) {
@@ -105,7 +90,6 @@ public class ConditionalsExercises {
             System.out.println("No puede entrar al cine.");
         }
 
-        // 9. Crea un programa que diga si una letra es vocal o consonante.
         char letter = 'e';
         switch (Character.toLowerCase(letter)) {
             case 'a':
@@ -119,7 +103,6 @@ public class ConditionalsExercises {
                 System.out.println(letter + " es una consonante.");
         }
 
-        // 10. Usa tres variables a, b, c y muestra cuál es el mayor de las tres.
         int a = 8;
         int b = 21;
         int c = 13;

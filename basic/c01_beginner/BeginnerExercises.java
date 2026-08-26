@@ -39,3 +39,4 @@ public class BeginnerExercises {
         System.out.println("Lenguaje favorito: " + favoriteLanguage);
     }
 }
+

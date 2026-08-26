@@ -42,3 +42,4 @@ public class StringsExercises {
         System.out.println("¿Tienen la misma longitud? " + sameLength);
     }
 }
+
